@@ -18,7 +18,7 @@ At first You need to include _MatEngine_ to your project:
 ```
 Now You can fully use framework at Your project. 
 
-Also read [documentation](https://github.com/JonHarris228/MatEngine/wiki) or look at [example](https://github.com/JonHarris228/MatEngine/tree/master/test_card_game), for proper use of _MatEngine_ 
+Also read [documentation](https://github.com/JonHarris228/MatEngine/wiki/Hitbox-documentation) or look at [example](https://github.com/JonHarris228/MatEngine/tree/master/test_card_game), for proper use of _MatEngine_ 
 
 ## Contributing
 
