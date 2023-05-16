@@ -15,12 +15,12 @@ public:
     void create_rectangle(int rows_len, int columns_len);
     void create_circle(int radius);
     void create_single();
-    void set_geometry(int x_0, int y_0, int w, int h);
-    void set_position(int x_0, int y_0);
-    void set_size(int w, int h);
+    void set_geometry(int x_0, int y_0, int w, int h, bool change_processed_value);
+    void set_position(int x_0, int y_0, bool change_processed_value);
+    void set_size(int w, int h, bool change_processed_value);
     void reset();
     void rotate(float degree);
-    void scale(float multiplicand);
+    void scale(float multiplier);
 
 private:
     bool ** template_matrix, ** processed_matrix;
