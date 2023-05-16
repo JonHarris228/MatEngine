@@ -15,9 +15,9 @@ public:
     void create_rectangle(int rows_len, int columns_len);
     void create_circle(int radius);
     void create_single();
-    void set_geometry(int x_0, int y_0, int w, int h, bool change_processed_value);
-    void set_position(int x_0, int y_0, bool change_processed_value);
-    void set_size(int w, int h, bool change_processed_value);
+    void set_geometry(int x_0, int y_0, int w, int h, bool change_processed_value = true);
+    void set_position(int x_0, int y_0, bool change_processed_value = true);
+    void set_size(int w, int h, bool change_processed_value = true);
     void reset();
     void rotate(float degree);
     void scale(float multiplier);
