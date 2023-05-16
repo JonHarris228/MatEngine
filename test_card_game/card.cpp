@@ -21,7 +21,6 @@ void Card::follow_mouse() {
     set_position(x + (rect.w - processed_columns*processed_width)/2, y + (rect.h - processed_rows*processed_height)/2);
     rect.x = x;
     rect.y = y;
-    set_position()
 }
 
 void Card::back_to_start(int speed, int card_number, int quantity) {
